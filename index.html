@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>tablas formularios</title>
+
+</head>
+<body>
+    <header>
+        <h1>El desempleo en España</h1>
+    </header>
+    <nav>
+        <p>la siguiente tabla muestra la evolución del desempleo en España, comparado con la media de los 27 paises de la Unión Europea, Grecia, que compite con España en ser el primero en esta vergonzosa competición y Estados Unidos y Japón dos de las primeras economía mundiales.</p>
+        <br>
+    </nav>
+    
+    <table border="2">
+        <tr>
+            <th>País</th>
+            <th>2000</th>
+            <th>2001</th>
+            <th>2002</th>
+            <th>2003</th>
+            <th>2004</th>
+            <th>2005</th>
+            <th>2006</th>
+            <th>2007</th>
+            <th>2008</th>
+            <th>2009</th>
+            <th>2010</th>
+            <th>2011</th>
+            <th>2012</th>
+            <th>2013</th>
+        </tr>
+        <tr>
+            <td>UE (27 países)</td>
+            <td>8.9</td>
+            <td>8.7</td>
+            <td>9</td>
+            <td>9.1</td>
+            <td>9.3</td>
+            <td>9</td>
+            <td>8.2</td>
+            <td>7.2</td>
+            <td>7</td>
+            <td>9</td>
+            <td>9.6</td>
+            <td>9.6</td>
+            <td>10.4</td>
+            <td>10.8</td>
+        </tr>
+        <tr>
+            <th>España</th>
+            <th>11.9</th>
+            <th>8.7</th>
+            <th>9</th>
+            <th>9.1</th>
+            <th>9.3</th>
+            <th>9</th>
+            <th>8.2</th>
+            <th>7.2</th>
+            <th>7</th>
+            <th>9</th>
+            <th>9.6</th>
+            <th>9.6</th>
+            <th>10.4</th>
+            <th>10.8</th>
+        </tr>
+        <tr>
+            <td>Grecia</td>
+            <td>11.2</td>
+            <td>10.7</td>
+            <td>10.3</td>
+            <td>9.7</td>
+            <td>10.6</td>
+            <td>10</td>
+            <td>9</td>
+            <td>8.4</td>
+            <td>7.8</td>
+            <td>9.6</td>
+            <td>12.7</td>
+            <td>17.9</td>
+            <td>24.5</td>
+            <td>27.5</td>
+        </tr>
+        
+    </table>
+    <p >fuente: <a href="https://www.dane.gov.co/index.php/estadisticas-por-tema/mercado-laboral/empleo-y-desempleo">indice del desempleo anual</a>  </p>
+    <br>
+    <h1>Tabla 2</h1>
+    <table border="2">
+        <tr>
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miercoles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+        </tr>
+        <tr>
+            <td>Martes</td>
+            <td scope="rowgroup" colspan="3" rowspan="2">Dibujo</td>
+            <td scope="rowgroup" rowspan="3">Historia</td>
+          </tr>
+        <tr>
+            <td scope="rowgroup" rowspan="4">Fisica</td>
+            <tr>
+                <td>Descanso</td>
+                <td>Descanso</td>
+                <td>Descanso</td>
+            </tr>
+            <tr>
+                <td>Gimnasia</td>
+                <td>Futbolin</td>
+                <td>Gimnasia</td>
+                <td>Mates</td>
+            
+            </tr>
+        </tr>
+    
+    </table>
+
+        
+    <br>
+    <h1>Tabla 3</h1>
+    <table border="2">
+        
+        <tr> 
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
+        </tr>
+        <tr> 
+            <th colspan="2">schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr> 
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2" class="yellow">8:00 a.m</td>
+            <td rowspan="2" class="purple">5:00 p.m</td>
+            <td>Introducción to XML</td>
+        </tr>
+        <tr>
+            <td>Validity: DTD and relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td class="yellow">8:00 a.m.</td>
+            <td class="yellow">11:00 a.m.</td>
+            <td class="content1">Xpath</td>
+        </tr>
+        <tr>
+            <td class="yellow">11:00 a.m.</td>
+            <td class="green">2:00 p.m.</td>
+            <td class="content2">XSL Transformations</td>
+        </tr>
+        <tr>
+            <td class="green">2:00 p.m.</td>
+            <td class="purple">5:00 p.m.</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td class="yellow">8:00 a.m.</td>
+            <td class="green">12:00 a.m.</td>
+            <td>XSL Formatting Objects</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <div>
+        <h1>Formularios</h1>
+        <br>
+        <h1>Formularios de Registro</h1>
+        <form action="" method="get" id="form-registro">
+            <label for="">Nombre:
+                <input type="text" placeholder="Nombre">
+            </label>
+            <br><br>
+            <label for="">Apellido:
+                <input type="text" placeholder="Apellido">
+            </label>
+            <br><br>
+            <label for="">genero:
+                <input type="radio" name="genero" id="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genero" id="femenino">
+                <label for="femenino">Femenino</label>
+            </label>
+            <br><br>
+            <label for="">Correo Electronico:
+                <input type="email" placeholder="ejemplo@gmail.com">
+            </label>
+            <br><br>
+            <input type="checkbox" id="informacion" checked>
+            <label for="informacion">Deseo recibir informacion sobre novedades y ofertas</label>
+            <br>
+            <input type="checkbox" id="declarar">
+            <label for="declarar">Declaro haber leido y aceptado las condiciones generales del programa y la normatividad sobre proteccion de datos</label>
+            <br><br>
+            <input type="submit" value="Enviar" id="botton">
+            <br>
+        </form>
+    </div>
+    <br>
+    <br>
+    <div>
+        <h1>Formulario de registro HTML5</h1>
+        <br>
+        <form action="" method="get">
+            <label for="name">Nombre:
+                <input type="text" id="name" name="name" placeholder="Nombre"/>
+            </label>
+            <br><br>
+            <label for="email">Correo electrónico:
+                <input type="email" id="email" name="email" placeholder="ejemplo2@gmail.com"/>
+            </label>
+            <br><br>
+            <label for="url">URL:
+                <input type="url" id="url" name="url" placeholder="https://Tablas-y-formularios"/>
+            </label>
+            <br><br>
+            <label for="date">Fecha:
+                <input type="date" id="date" name="date"/>
+            </label>
+            <br><br>
+            <label for="time">Tiempo:
+                <input type="time" id="time" name="time"/>
+            <br><br>
+            <label for="datetime">Fecha y hora:
+                <input type="datetime-local" id="datetime" name="datetime"/>
+            </label>
+            <br><br>
+            <label for="month">Mes:
+                <input type="month" id="month" name="month"/>
+            </label>
+            <br><br>
+            <label for="week">Semana:
+                <input type="week" id="week" name="week"/>
+            </label>
+            <br><br>
+            <label for="number">Número (min -10, max 10):
+                <input
+                    type="number"
+                    id="number"
+                    name="number"
+                    min="-10"
+                    max="10"
+                    required
+                />
+            </label>
+            <br><br>
+            <script>
+                const numberInput = document.getElementById("number");
+                const numberError = document.getElementById("number-error");
+                numberInput.addEventListener("input", function () {
+                    const value = parseInt(numberInput.value);
+                    if (value < -10 || value > 10) {
+                        numberError.style.display = "block";
+                    } else {
+                        numberError.style.display = "none";
+                    }
+                });
+            </script>
+            <label for="phone">Teléfono:
+                <input type="tel" id="phone" name="phone"/>
+            </label>
+            <br><br>
+            <label for="search">Búsqueda:
+                <input type="search" id="search" name="search"/>
+            </label>
+            <br><br>
+            <label for="color">Color favorito:
+                <input type="color" id="color" name="color"/>
+            </label>
+            <br><br>
+            <input type="submit" value="Enviar" id="buttom"/>
+            <br><br><br>
+        </form>
+    </div>
+</body>
+</html>

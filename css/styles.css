@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background-color: antiquewhite ;
+}
+
+body{
+    margin: 8px auto;
+    width: 1000px;
+    height: 1000px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    padding: 3px;
+}
+.yellow{
+    background: lightyellow;
+}
+.purple{
+    background-color: plum;
+}
+.green{
+    background-color: lightgreen;
+}
+
+
+#form-registro{
+    border: 1px solid black ;
+    margin: 20px;
+}
+
+
+#botton{
+    background-color: red;
+    width: 100px;
+    height: 25px;
+    color: white;
+}
+
